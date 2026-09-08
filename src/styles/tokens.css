@@ -1,0 +1,38 @@
+:root {
+  /* ---- Color: named per the reference's palette role, not generic gray scale ---- */
+  --paper: #f4efdc;           /* cream page background, from the "Big Nine" section */
+  --paper-raised: #ece4cc;    /* slightly deeper cream for cards/table zebra */
+  --ink-green: #16241a;       /* near-black forest green, used for headline text on cream */
+  --panel-green: #17281c;     /* the dark hero/header green */
+  --panel-green-soft: #203729;/* lighter green for cards sitting on the dark panel */
+  --cream-ink: #f3ecd9;       /* cream text sitting on dark green */
+  --cream-ink-dim: #cfd6c8;   /* dimmer cream for secondary text on green */
+  --gold: #c99a3d;            /* eyebrow / accent gold */
+  --gold-soft: #e7c878;
+  --rule: rgba(22, 36, 26, 0.16);      /* hairline rule on cream */
+  --rule-on-green: rgba(243, 236, 217, 0.18);
+  --status-ok: #3f6b46;       /* compatible */
+  --status-ok-bg: rgba(63, 107, 70, 0.1);
+  --status-bad: #a5402f;      /* excluded / diet+allergen */
+  --status-bad-bg: rgba(165, 64, 47, 0.08);
+  --status-warn: #a8791f;     /* over budget */
+  --status-warn-bg: rgba(168, 121, 31, 0.1);
+
+  /* ---- Type ---- */
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  /* ---- Spacing / shape ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --max-width: 1180px;
+}
